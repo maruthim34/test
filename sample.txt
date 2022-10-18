@@ -1,1 +1,17 @@
-hey hii
+command					function
+git init					*initialize local repo
+git add<file>[.,*]			*adds files to staging area
+git status					*check status of files in staging area
+git commit -m "message"			*commit changes to local repo
+git commit,I to insert,:wq to commit *commit changes to local repo
+git push					*push local repo to remote repo
+git pull					*pull changes from remote repo
+git clone					*copy a remote repo to new dir
+git rm -cached <file>			*remove file from repo
+git config -global user.name"name"	 
+git config -global user.email"email"
+git branch <name>				*make a new branch
+git checkout<branch name>		*change branch
+git merge<branch>				*merges branch name to master branch
+git remote add<name><url>		*adds a new remote repo
+git push -u <name><branch>		*pushes changes to remote repo
