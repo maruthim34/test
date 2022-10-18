@@ -1,3 +1,4 @@
+updated on login branch
 command					function
 git init					*initialize local repo
 git add<file>[.,*]			*adds files to staging area
